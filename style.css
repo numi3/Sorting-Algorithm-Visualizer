@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+
+    gap: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.selectMenu {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+
+main {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+button {
+    margin-top: 5px;
+}
+
+select {
+    margin-top: 5px;
+}
+
+
+.bar {
+    background-color: #2196F3;
+    margin-right: 1px;
+    display: inline-block;
+    vertical-align: bottom;    
+}
+
+.sliderMenu {
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    justify-content: center;
+}
+
+.sliderMenu label {
+    margin: auto;
+    padding: auto;
+}
+
+.sliderMenu input[type="range"] {
+    margin: auto;
+    padding: auto;
+}
